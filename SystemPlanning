@@ -1,0 +1,39 @@
+Title: System Planning
+Author: Ryan Strotman
+Date: 2020/3/16
+Synopsis: Make a plan for making a software system to model an intersection
+
+
+What things make up an intersection
+     - automobiles
+     - Lights
+     - Lanes
+     - the center section
+     - arrows/signals (like on the ground or on a sign)
+     - Pedestrians
+     - walkways
+     - sensors (cameras) (inducion loops)
+     
+
+Cars:
+	- What does a car know?
+	  - its licence plate
+	  - how big it is
+	  - where it is coming from
+	  - where it is going
+	- can see the lights
+	- knows what lane it is in
+
+
+Lights:
+	- what does it know?
+	  - what state it is in (green yellow red)
+	  - knows how to change colors and how long yellow needs to be
+
+
+Lanes:
+	- What does a lane know?
+	  - what light(s) control it
+	  - knows what arrows are in it/control it
+	    - e.i. what direction it can go
+	    
